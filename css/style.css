@@ -1,0 +1,86 @@
+/* ===============================
+        common css start
+   =============================== */
+
+.fonts {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 870px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+}
+body{
+    background-color: #9F9F9F;
+}
+/* ===============================
+        common css end
+   =============================== */
+/* ===============================
+        typography css start
+   =============================== */
+.main-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 500;
+    color:#562EFF;
+    margin-bottom: 32px;
+    
+
+}
+
+.player-name{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    color:#000000;
+}
+
+
+
+/* ===============================
+        typography css end
+   =============================== */
+/* ===============================
+        player-blog css start
+   =============================== */
+#player-bolg {
+       
+}
+#player-bolg .top-player{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-row-gap: 30px;
+    
+}
+#player-bolg .top-player .players{
+     display: flex;
+     align-items: center;
+
+
+     
+}
+#player-bolg .top-player .players .player-image{
+    width: 56px;
+    height: 56px;
+    margin-right: 16px;
+}
+#player-bolg .top-player .players .player-image img{
+    width: 100%;
+    height: 100%;
+}
+
+/* ===============================
+        player-blog css end
+   =============================== */
